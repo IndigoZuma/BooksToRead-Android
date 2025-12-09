@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9E3"
+    tools:context=".HelpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tvHelpHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Books To Read - Help"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textColor="#212121"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/tvHelpPurpose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This app helps you keep track of the books you want to read and the books you have finished. Use the main screen to enter a title, then mark it as read on the details screen."
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:textColor="#212121"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvHelpPreferences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preferences let you control how your reading list is shown. You can sort books alphabetically or by read status, and choose whether to show finished books in the main list. These settings are saved so you do not have to change them each time you open the app."
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:textColor="#212121"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnBackToMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back to Main"
+            android:textAllCaps="false"
+            android:backgroundTint="#9FE2BF"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp" />
+
+    </LinearLayout>
+</ScrollView>
